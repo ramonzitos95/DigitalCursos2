@@ -1,0 +1,15 @@
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\DigitalCursos.Models.deps.json
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\DigitalCursos.Models.dll
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\ref\DigitalCursos.Models.dll
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\DigitalCursos.Models.pdb
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.csproj.AssemblyReference.cache
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.AssemblyInfoInputs.cache
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.AssemblyInfo.cs
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.csproj.CoreCompileInputs.cache
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.dll
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\ref\DigitalCursos.Models.dll
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.pdb
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\DigitalCursos.Models.runtimeconfig.json
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\bin\Debug\net5.0\DigitalCursos.Models.runtimeconfig.dev.json
+D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Models\obj\Debug\net5.0\DigitalCursos.Models.genruntimeconfig.cache
