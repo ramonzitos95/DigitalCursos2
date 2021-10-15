@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LOJMmNsxwFqm0PTfs3WdoTbtEtr3sV9VZB7e/RCaDXZsCCxg6BDt94SDTdYJ3+zt2mX3t0W7M4EhFVv6PupjtA==",
+  "dgSpecHash": "iHZpVh/s6bdb61Bl7GrjgUt/BXamT6lnNgDQ7cfopDlbGRBC8CCOrlkGhEBXS/U2LhsRxYxYBuNAJFePD1IcSA==",
   "success": true,
-  "projectFilePath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
+  "projectFilePath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ramon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

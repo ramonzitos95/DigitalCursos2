@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace DigitalCursos.Web.Shared
+namespace DigitalCursos.Web.Pages.Alunos
 {
     #line hidden
     using System;
@@ -96,7 +96,8 @@ using System.Net.Http.Json;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/alunos")]
+    public partial class ListaAlunos : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,20 +105,26 @@ using System.Net.Http.Json;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\Shared\NavMenu.razor"
+#line 34 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\Pages\Alunos\ListaAlunos.razor"
        
-    private bool collapseNavMenu = true;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    public IEnumerable<Aluno> Alunos { get; set; }
 
-    private void ToggleNavMenu()
+    protected async override Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        await GetAlunos();
     }
+
+    protected async Task GetAlunos()
+    {
+        Alunos = await http.GetFromJsonAsync<IEnumerable<Aluno>>($"api/alunos");
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient http { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "System.Net.Http.Json/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Net.Http.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
       "DigitalCursos.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +24,28 @@
     }
   },
   "libraries": {
+    "System.Net.Http.Json/5.0.0": {
+      "sha512": "3CPSQpCzEmI9o+1G79TnPCjF40omCdnoXj2Rg76BDwGj5+LZnFPjV+t35eedlvl+uthmholk/XXxXTYgJWSexw==",
+      "type": "package",
+      "path": "system.net.http.json/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Net.Http.Json.dll",
+        "lib/net461/System.Net.Http.Json.xml",
+        "lib/net5.0/System.Net.Http.Json.dll",
+        "lib/net5.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.5.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "DigitalCursos.Models/1.0.0": {
       "type": "project",
       "path": "../DigitalCursos.Models/DigitalCursos.Models.csproj",
@@ -23,7 +54,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DigitalCursos.Models >= 1.0.0"
+      "DigitalCursos.Models >= 1.0.0",
+      "System.Net.Http.Json >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -33,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
+      "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
       "projectName": "DigitalCursos.Web",
-      "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
+      "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
       "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-      "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Web\\obj\\",
+      "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +90,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
-              "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj"
+            "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
+              "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj"
             }
           }
         }
@@ -73,6 +105,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "System.Net.Http.Json": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

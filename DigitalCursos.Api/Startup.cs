@@ -1,4 +1,5 @@
 using DigitalCursos.Api.Context;
+using DigitalCursos.Api.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +37,8 @@ namespace DigitalCursos.Api
 
             services.AddDbContext<AppDbContext>(options
                 => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IAlunoRepository, AlunoRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

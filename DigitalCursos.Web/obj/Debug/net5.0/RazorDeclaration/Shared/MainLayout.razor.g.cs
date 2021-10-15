@@ -13,71 +13,85 @@ namespace DigitalCursos.Web.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 1 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 2 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 3 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 4 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 5 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 6 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 7 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 8 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 9 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using DigitalCursos.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Programação\projetos blazor\DigitalCursos\DigitalCursos.Web\_Imports.razor"
+#line 10 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
 using DigitalCursos.Web.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
+using DigitalCursos.Models.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\Programação\projetos blazor\DigitalCursos2\DigitalCursos.Web\_Imports.razor"
+using System.Net.Http.Json;
 
 #line default
 #line hidden

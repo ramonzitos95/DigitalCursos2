@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jnd1DJd1RGavttsBmlrJdylDJhBNutUjKR3vHTadNcOpHezrjDDDpDbP1voj/jDa7Y/Q8aQu1TKo8hnVuRscgA==",
+  "dgSpecHash": "w0p+vEW049LY8vacPQpfDkinrjdGEC+g/knyX5MG8fuGIu0ZS260mGqKyrh/ILIXvpx7GJTrWiGkbXVbYGBDAg==",
   "success": true,
-  "projectFilePath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Web\\DigitalCursos.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramon\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

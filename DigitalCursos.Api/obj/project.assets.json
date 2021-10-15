@@ -6001,11 +6001,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Api\\DigitalCursos.Api.csproj",
+      "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Api\\DigitalCursos.Api.csproj",
       "projectName": "DigitalCursos.Api",
-      "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Api\\DigitalCursos.Api.csproj",
+      "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Api\\DigitalCursos.Api.csproj",
       "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-      "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Api\\obj\\",
+      "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6026,8 +6026,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
-              "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj"
+            "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
+              "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj"
             }
           }
         }

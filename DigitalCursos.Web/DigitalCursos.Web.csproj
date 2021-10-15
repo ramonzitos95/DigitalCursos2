@@ -8,4 +8,13 @@
     <ProjectReference Include="..\DigitalCursos.Models\DigitalCursos.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Cursos\" />
+    <Folder Include="wwwroot\fotos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
 </Project>

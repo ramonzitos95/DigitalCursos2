@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {}
+    "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {}
   },
   "projects": {
-    "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
+    "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
+        "projectUniqueName": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
         "projectName": "DigitalCursos.Models",
-        "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
+        "projectPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\DigitalCursos.Models.csproj",
         "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-        "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos\\DigitalCursos.Models\\obj\\",
+        "outputPath": "D:\\Programação\\projetos blazor\\DigitalCursos2\\DigitalCursos.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
